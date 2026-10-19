@@ -12,6 +12,12 @@ In the Arduino IDE, open **Library Manager**, search for **SEFR** and click Inst
 arduino-cli lib install SEFR
 ```
 
+With [PlatformIO](https://registry.platformio.org/libraries/hamid9/SEFR), add it to `platformio.ini`:
+
+```ini
+lib_deps = hamid9/SEFR
+```
+
 ## Example
 
 ```cpp
