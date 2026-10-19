@@ -21,7 +21,7 @@
 #include <float.h>
 #include <math.h>
 
-#define SEFR_VERSION "1.0.0"
+#define SEFR_VERSION "1.0.1"
 
 template <uint16_t N_FEATURES, uint16_t N_CLASSES>
 class SEFR {

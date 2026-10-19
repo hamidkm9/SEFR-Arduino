@@ -1,6 +1,6 @@
 # SEFR for Arduino
 
-SEFR is a linear classifier that trains on the microcontroller itself. It reads each training sample once, keeps only a running sum per class and the range of each feature, and can then classify new samples with one dot product per class. There is no learning rate, no iterations and no dynamic memory, so it runs on boards with 2 KB of RAM such as the Arduino Uno.
+SEFR is a machine learning (TinyML) classifier that trains on the microcontroller itself. It reads each training sample once, keeps only a running sum per class and the range of each feature, and can then classify new samples with one dot product per class. There is no learning rate, no iterations and no dynamic memory, so it runs on boards with 2 KB of RAM such as the Arduino Uno.
 
 STMicroelectronics ships SEFR in [NanoEdge AI Studio](https://dev.st.com/edge-ai-docs/general/latest/en/docs/misc/nanoedge-ai-index.html), its AutoML tool for STM32, where it is recommended for multi-class classification with an ultra-low footprint.
 
