@@ -1,0 +1,27 @@
+{
+  "name": "SEFR",
+  "version": "1.0.0",
+  "description": "A classifier that trains on the microcontroller itself, in one pass over the data. SEFR (arXiv:2006.04620) learns a linear multiclass model from streamed samples, with an optional LDA refining pass. No dynamic memory.",
+  "keywords": "machine learning, classifier, tinyml, on-device learning, sefr, embedded ml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamidkm9/SEFR-Arduino.git"
+  },
+  "authors": [
+    {
+      "name": "Hamidreza Keshavarz",
+      "email": "hamid9999@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hamidkm9/SEFR-Arduino",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "SEFR.h",
+  "export": {
+    "exclude": [
+      "extras/test/test_host"
+    ]
+  }
+}
