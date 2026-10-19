@@ -1,0 +1,15 @@
+SEFR	KEYWORD1
+learn	KEYWORD2
+train	KEYWORD2
+beginRefine	KEYWORD2
+refine	KEYWORD2
+endRefine	KEYWORD2
+predict	KEYWORD2
+scores	KEYWORD2
+setModel	KEYWORD2
+weights	KEYWORD2
+bias	KEYWORD2
+count	KEYWORD2
+isTrained	KEYWORD2
+numFeatures	KEYWORD2
+numClasses	KEYWORD2
